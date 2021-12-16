@@ -4,6 +4,8 @@ import { ChakraProvider } from '@chakra-ui/react'
 import {myNewTheme} from "./styles/theme"
 import Me from './components/Me'
 import Home from './components/Home'
+import Skills from './components/Skills'
+import Proyects from './components/Proyects'
 function App(): JSX.Element {
 
 
@@ -15,6 +17,9 @@ function App(): JSX.Element {
         
           <Home/>
           <Me/>
+          <Skills/>
+
+          <Proyects/>
         </Container>
         
       </Box>

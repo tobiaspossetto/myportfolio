@@ -10,6 +10,7 @@ export const myNewTheme = extendTheme({
        
 
     },
+   
     fonts: {
         body: "Poppins, sans-serif",
         heading: "Poppins, serif",
