@@ -10,7 +10,7 @@ export const TextStyles = {
             fontWeight: "regular",
             padding: "0",
             border: "none",
-           
+            scrollBehavior:"smooth",
             _hover:{
                 textDecoration: 'underline',
                 textDecorationColor: 'blue3',

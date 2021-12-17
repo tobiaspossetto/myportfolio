@@ -6,6 +6,7 @@ import Me from './components/Me'
 import Home from './components/Home'
 import Skills from './components/Skills'
 import Proyects from './components/Proyects'
+import Contact from './components/Contact'
 function App(): JSX.Element {
 
 
@@ -20,9 +21,17 @@ function App(): JSX.Element {
           <Skills/>
 
           <Proyects/>
+          <Contact/>
         </Container>
-        
+        <Box d='flex' alignItems='center' justifyContent='center' w='100%' mt='100px' h='100px' bg='blue4'>
+                <Text fontSize='25px' color='white'> 2021 - Tobías Possetto</Text>
+        </Box>  
+        <Box w='100%'  h='5px' bg='blue3'>
+                
+                </Box> 
       </Box>
+
+
     </ChakraProvider>
 
   );

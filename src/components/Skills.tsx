@@ -6,7 +6,7 @@ import * as siIcons from 'react-icons/si'
 const Skills = (): JSX.Element => {
     return (
         <>
-            <Box padding={{ base: "0px", sm: '0px', md: "20px", lg: "36px" }}>
+            <Box id='skills' padding={{ base: "0px", sm: '0px', md: "20px", lg: "36px" }}>
                 <Box mb='50px' paddingTop='70px' display="flex" justifyContent="center" alignItems="center" width="100%">
                     <ioIcons.IoMdCube size={30} color='#5ABFB5' />
                     <Text ml='5px' fontSize={{ base: "40px", sm: '40px', md: "45px", lg: "45px" }} textAlign="start" color="white">Skills</Text>
@@ -23,7 +23,7 @@ const Skills = (): JSX.Element => {
                     </Box>
                     <Box minWidth="150px"  mt='30px' mb='30px'>
                         <Text mb='15px' variant='skills'>NodeJs</Text>
-                        <Box w={{ base:"100%", sm:"100%", md:"100%", lg:"100%"}} h={{ base:"75px", sm:"75px", md:"100px", lg:"150px"}}><faIcons.FaNodeJs size='100%' color='#D69E2E'/></Box>
+                        <Box  w={{ base:"100%", sm:"100%", md:"100%", lg:"100%"}} h={{ base:"75px", sm:"75px", md:"100px", lg:"150px"}}><faIcons.FaNodeJs size='100%' color='#D69E2E'/></Box>
                         <Progress w='100%'   mt='20px' mb='35px'  colorScheme='yellow' isAnimated={true} size='sm' value={45} />
                     </Box>
                     <Box minWidth="150px"  mb='30px'>

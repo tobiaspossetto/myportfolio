@@ -7,7 +7,7 @@ export const myNewTheme = extendTheme({
         blue1: '#232C39',
         blue2: '#2D4668',
         blue3: '#5ABFB5',
-       
+        blue4: '#0e141d',
 
     },
    

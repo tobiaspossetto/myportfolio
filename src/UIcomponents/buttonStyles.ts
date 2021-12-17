@@ -10,7 +10,7 @@ export const ButtonStyles = {
             fontWeight: "regular",
             padding: "0",
             border: "none",
-           
+            scrollBehavior:"smooth",
             _hover:{
                 textDecoration: 'underline',
                 textDecorationColor: 'blue3',
@@ -25,6 +25,21 @@ export const ButtonStyles = {
 
            
         },
+        contact:{
+            fontSize:'25px',
+            padding: '25px',
+            fontWeight:'500',
+            backgroundColor: '#2A3442',
+            color: "white",
+            boxShadow: '-3px -4px 12px 1px rgba(0, 0, 0, 0.3)',
+            minWidth: '230px',
+            _hover:{
+                backgroundColor:'#212A36',
+                boxShadow: 'inset -3px -3px 4px 4px rgba(0, 0, 0, 0.25)'
+
+            }
+        }
+        ,
         brand:{
             color: 'white',
            

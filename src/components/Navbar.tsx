@@ -9,10 +9,10 @@ const Navbar = (): JSX.Element => {
             <Box><Button rightIcon={<goIcons.GoVerified color='#5ABFB5' />} variant='brand' bg='none' fontWeight='regular' fontSize={{ base: "22px", sm: "25px", md: "25px", lg: "25px" }} color='white'>Tobías Possetto</Button></Box>
             <Spacer />
             <Stack display={{ base: "none", sm: "none", md: "block", lg: "block" }} margin='0' direction='row' spacing={{ md: '15px', lg: "40px" }}>
-                <Text  outline='none' margin='0' href='#div' as='a' variant='primary'>Home</Text>
-                <Text margin='0' href='#div' as='a' variant='primary'>Skills</Text>
-                <Text margin='0' href='#div' as='a' variant='primary'>Proyects</Text>
-                <Text margin='0' href='#div' as='a' variant='primary'>Contact Me</Text>
+                <Text   outline='none'  margin='0' href='#home' as='a' variant='primary'>Home</Text>
+                <Text  margin='0' href='#skills' as='a' variant='primary'>Skills</Text>
+                <Text  margin='0' href='#proyects' as='a' variant='primary'>Proyects</Text>
+                <Text  margin='0' href='#contact' as='a' variant='primary'>Contact Me</Text>
             </Stack>
             <Button rightIcon={<hiIcons.HiMenuAlt3 size={40} />} display={{ base: "block", sm: "block", md: "none", lg: "none" }} variant='primary' onClick={onOpen}>
 
@@ -31,19 +31,19 @@ const Navbar = (): JSX.Element => {
                     <DrawerBody>
                         <Stack mt='5px' direction='column' spacing={5}>
                             <Box>
-                                <Text variant='sideBar' as='a' onClick={onClose} href='#div' >Home</Text>
+                                <Text variant='sideBar' as='a' onClick={onClose} href='#home' >Home</Text>
                               
                             </Box>
                             <Box>
-                                <Text variant='sideBar' as='a' onClick={onClose} href='#div' >Skills</Text>
+                                <Text variant='sideBar' as='a' onClick={onClose} href='#skills' >Skills</Text>
                                
                             </Box>
                             <Box>
-                                <Text variant='sideBar' as='a' onClick={onClose} href='#div' >Proyects</Text>
+                                <Text variant='sideBar' as='a' onClick={onClose} href='#proyects' >Proyects</Text>
                               
                             </Box>
                             <Box>
-                                <Text variant='sideBar' as='a' onClick={onClose} href='#div' >About Me</Text>
+                                <Text variant='sideBar' as='a' onClick={onClose} href='#contact' >Contact Me</Text>
                                
                             </Box>
 
