@@ -9,7 +9,7 @@ const Skills = (): JSX.Element => {
             <Box id='skills' padding={{ base: "0px", sm: '0px', md: "20px", lg: "36px" }}>
                 <Box mb='50px' paddingTop='70px' display="flex" justifyContent="center" alignItems="center" width="100%">
                     <ioIcons.IoMdCube size={30} color='#5ABFB5' />
-                    <Text ml='5px' fontSize={{ base: "40px", sm: '40px', md: "45px", lg: "45px" }} textAlign="start" color="white">Skills</Text>
+                    <Text ml='5px' fontSize={{ base: "30px", sm: '40px', md: "45px", lg: "45px" }} textAlign="start" color="white">Skills</Text>
                 </Box>
 
                 <Stack spacing="10" width='100%' justify="space-around" align="center" direction={{base:"column", sm: "column", md: "row", lg: "row"}}>

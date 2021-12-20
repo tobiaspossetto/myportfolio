@@ -6,7 +6,7 @@ const Me = (): JSX.Element => {
         <Box id='me'  padding={{ base: "0px", sm: '0px', md: "20px", lg: "30px" }}>
             <Box paddingTop='100px' display="flex" justifyContent="center" alignItems="center" width="100%">
                 <ioIcons.IoMdCube size={30} color='#5ABFB5' />
-                <Text ml='5px' fontSize={{ base: "40px", sm: '40px', md: "45px", lg: "45px" }}textAlign="center" color="white">About Me</Text>
+                <Text ml='5px' fontSize={{ base: "30px", sm: '40px', md: "45px", lg: "45px" }}textAlign="center" color="white">About Me</Text>
             </Box>
 
             <Flex direction={{ base: "column", sm: "column", md: "column", lg: "row" }} align="center" justify="space-around" padding='10px'>

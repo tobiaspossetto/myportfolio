@@ -9,7 +9,7 @@ const Contact = ():JSX.Element => {
         <>
               <Box id='contact'  paddingTop='100px' display="flex" justifyContent="center" alignItems="center" width="100%">
                             <ioIcons.IoMdCube size={30} color='#5ABFB5' />
-                            <Text ml='5px' fontSize={{ base: "40px", sm: '40px', md: "45px", lg: "45px" }}textAlign="center" color="white">Contact Me</Text>
+                            <Text ml='5px' fontSize={{ base: "30px", sm: '40px', md: "45px", lg: "45px" }}textAlign="center" color="white">Contact Me</Text>
                         </Box>
 
                         <Wrap  mt='50px' spacing='30px' justify='center'>

@@ -13,7 +13,7 @@ const Proyects = (): JSX.Element => {
 
             <Box id='proyects' paddingTop='100px' display="flex" justifyContent="center" alignItems="center" width="100%">
                             <ioIcons.IoMdCube size={30} color='#5ABFB5' />
-                            <Text ml='5px' fontSize={{ base: "40px", sm: '40px', md: "45px", lg: "45px" }}textAlign="center" color="white">My Proyects</Text>
+                            <Text ml='5px' fontSize={{ base: "30px", sm: '40px', md: "45px", lg: "45px" }}textAlign="center" color="white">My Proyects</Text>
                         </Box>
 
 
@@ -152,7 +152,7 @@ const Proyects = (): JSX.Element => {
 
                     <Box display='flex' mt='2' alignItems='center'>
 
-                        <Button as='a' target='_blank' href='https://github.com/tobiaspossetto/coder-react-agape'  fontSize={{ base: "16px", sm: '22px', md: '24px', lg: '24px' }} padding={{ base: "8px", sm: '8px', md: '20px', lg: '20px' }} width={{ base: "35%", sm: "30%", md: "40%", lg: "40%" }} variant='cta'>Repo</Button>
+                        <Button as='a' target='_blank' href='https://github.com/tobiaspossetto/coder-react-agape/tree/develop'  fontSize={{ base: "16px", sm: '22px', md: '24px', lg: '24px' }} padding={{ base: "8px", sm: '8px', md: '20px', lg: '20px' }} width={{ base: "35%", sm: "30%", md: "40%", lg: "40%" }} variant='cta'>Repo</Button>
                     </Box>
                 </Box>
 
@@ -250,7 +250,7 @@ const Proyects = (): JSX.Element => {
                     </Box>
 
                     <Box>
-                    landing page created for a packaging store. I was chosen to work on this project together with a UI designer and a web developer because I was one of the students of the React course at Coderhouse who got the highest score in their final project.
+                    Landing page created for a packaging store. I was chosen to work on this project together with a UI designer and a web developer because I was one of the students of the React course at Coderhouse who got the highest score in their final project.
 
                     </Box>
 
