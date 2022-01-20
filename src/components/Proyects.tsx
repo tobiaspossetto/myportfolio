@@ -146,7 +146,7 @@ const Proyects = (): JSX.Element => {
                     </Box>
 
                     <Box>
-                    Ecommerce created with React and Firebase.
+                    E-Commerce created with React and Firebase.
 
                     </Box>
 
@@ -192,7 +192,7 @@ const Proyects = (): JSX.Element => {
                         lineHeight='tight'
                         isTruncated
                     >
-                        Coffe
+                        Coffee
                     </Box>
 
                     <Box>
@@ -250,7 +250,7 @@ const Proyects = (): JSX.Element => {
                     </Box>
 
                     <Box>
-                    Landing page created for a packaging store. I was chosen to work on this project together with a UI designer and a web developer because I was one of the students of the React course at Coderhouse who got the highest score in their final project.
+                    Landing page created for a packaging store. I was chosen to work on this project together with a UI designer and a web developer because I was one of the students of the React course at Coderhouse who scored the best in their final project.
 
                     </Box>
 
@@ -305,7 +305,7 @@ const Proyects = (): JSX.Element => {
                     </Box>
 
                     <Box>
-                    My first visit to the Backend development. I developed an API and a database to pay from the phone. I learned how to implement administrator and user roles.
+                    My first visit to backend development. I developed an API and database for clients to be able to pay from their phone. I learned how to implement administrator and user roles.
 
                     </Box>
 
@@ -357,11 +357,11 @@ const Proyects = (): JSX.Element => {
                         lineHeight='tight'
                         isTruncated
                     >
-                        Eccomerce App
+                        E-ccomerce App
                     </Box>
 
                     <Box>
-                    In this project I developed the backend of an ecommerce using Express and mySql. I implemented a role and authentication system with JWT and included NPM module libraries to encrypt passwords and validate the fields coming from the frontend. The app allows to create and manage products and also offers the possibility to manage customer orders.  
+                    In this project I developed the backend of an E-commerce using Express and mySql. I implemented a role and authentication system with JWT and included NPM module libraries to encrypt passwords and validate the fields coming from the frontend. The app allows its owner to create and manage products and also offers the possibility to manage customer orders.  
 
                     </Box>
 
