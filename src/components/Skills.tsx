@@ -18,24 +18,24 @@ const Skills = (): JSX.Element => {
                         <Box  w={{ base:"100%", sm:"100%", md:"100%", lg:"100%"}} h={{ base:"80px", sm:"80px", md:"100px", lg:"150px"}}>
                             <faIcons.FaReact  size='100%' color='#0BC5EA' />
                         </Box>
-                        <Progress w='100%'  mt='20px' mb='35px' colorScheme='cyan' isAnimated={true} size='sm' value={45} />
+                       
                       
                     </Box>
                     <Box minWidth="150px"  mt='30px' mb='30px'>
                         <Text mb='15px' variant='skills'>NodeJs</Text>
                         <Box  w={{ base:"100%", sm:"100%", md:"100%", lg:"100%"}} h={{ base:"75px", sm:"75px", md:"100px", lg:"150px"}}><faIcons.FaNodeJs size='100%' color='#D69E2E'/></Box>
-                        <Progress w='100%'   mt='20px' mb='35px'  colorScheme='yellow' isAnimated={true} size='sm' value={45} />
+                        
                     </Box>
                     <Box minWidth="150px"  mb='30px'>
                         <Text mb='15px' variant='skills'>MySQL</Text>
                         <Box w={{ base:"100%", sm:"100%", md:"100%", lg:"100%"}} h={{ base:"100px", sm:"100px", md:"100px", lg:"150px"}}><siIcons.SiMysql  size='100%' color='#DD6B20'/></Box>
-                        <Progress w='100%'  mt='20px' mb='35px' isAnimated={true}  colorScheme='orange' size='sm' value={28} />
+                       
                     </Box>
 
                     <Box minWidth="150px" mb='30px'>
                         <Text mb='15px' variant='skills'>MongoDB</Text>
                         <Box w={{ base:"100%", sm:"100%", md:"100%", lg:"100%"}} h={{ base:"80px", sm:"80px", md:"100px", lg:"150px"}}><siIcons.SiMongodb  size='100%' color='#38A169'/></Box>
-                        <Progress w='100%'  mt='20px' mb='35px' isAnimated={true}  colorScheme='green' size='sm' value={20} />
+                        
                     </Box>
                 </Stack>
             </Box>

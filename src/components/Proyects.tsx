@@ -49,14 +49,21 @@ const Proyects = (): JSX.Element => {
                     </Box>
 
                     <Box>
-                        Clone of Netflix with React and TMDB.
+                        Clone of Netflix with React and TMDB. (Only mobile)
 
                     </Box>
+<Stack  align='center' w='100%' justify='center'>
 
-                    <Box display='flex' mt='2' alignItems='center'>
+                    <Box w='100%' display='flex' justify='center' mt='2' alignItems='center'>
 
                         <Button as='a' target='_blank' href='https://github.com/tobiaspossetto/netflix-ui-clone' fontSize={{ base: "16px", sm: '22px', md: '24px', lg: '24px' }} padding={{ base: "8px", sm: '8px', md: '20px', lg: '20px' }} width={{ base: "35%", sm: "30%", md: "40%", lg: "40%" }} variant='cta'>Repo</Button>
                     </Box>
+
+                    <Box w='100%' display='flex' mt='2' alignItems='center'>
+
+<Button as='a' target='_blank' href='https://tobiaspossetto.github.io/netflix-ui-clone/' fontSize={{ base: "16px", sm: '22px', md: '24px', lg: '24px' }} padding={{ base: "8px", sm: '8px', md: '20px', lg: '20px' }} width={{ base: "35%", sm: "30%", md: "40%", lg: "40%" }} variant='cta'>See</Button>
+</Box>
+</Stack>
                 </Box>
 
 
@@ -107,6 +114,10 @@ const Proyects = (): JSX.Element => {
 
                         <Button as='a' target='_blank' href='https://github.com/tobiaspossetto/PizzaClub-CoderHouse'   fontSize={{ base: "16px", sm: '22px', md: '24px', lg: '24px' }} padding={{ base: "8px", sm: '8px', md: '20px', lg: '20px' }} width={{ base: "35%", sm: "30%", md: "40%", lg: "40%" }} variant='cta'>Repo</Button>
                     </Box>
+                    <Box display='flex' mt='2' alignItems='center'>
+
+                    <Button as='a' target='_blank' href='https://tobiaspossetto.github.io/PizzaClub-CoderHouse//' fontSize={{ base: "16px", sm: '22px', md: '24px', lg: '24px' }} padding={{ base: "8px", sm: '8px', md: '20px', lg: '20px' }} width={{ base: "35%", sm: "30%", md: "40%", lg: "40%" }} variant='cta'>See</Button>
+                    </Box>
                 </Box>
 
             </Box>
@@ -154,12 +165,65 @@ const Proyects = (): JSX.Element => {
 
                         <Button as='a' target='_blank' href='https://github.com/tobiaspossetto/coder-react-agape/tree/develop'  fontSize={{ base: "16px", sm: '22px', md: '24px', lg: '24px' }} padding={{ base: "8px", sm: '8px', md: '20px', lg: '20px' }} width={{ base: "35%", sm: "30%", md: "40%", lg: "40%" }} variant='cta'>Repo</Button>
                     </Box>
+
+                    <Box display='flex' mt='2' alignItems='center'>
+
+<Button as='a' target='_blank' href='https://tobiaspossetto.github.io/coder-react-agape/#/' fontSize={{ base: "16px", sm: '22px', md: '24px', lg: '24px' }} padding={{ base: "8px", sm: '8px', md: '20px', lg: '20px' }} width={{ base: "35%", sm: "30%", md: "40%", lg: "40%" }} variant='cta'>See</Button>
+</Box>
                 </Box>
 
             </Box>
             </WrapItem>
 
-          
+            <WrapItem >
+            <Box  maxWidth="330px"   bg='white'  borderRadius='lg' overflow='hidden'>
+
+                <Center>
+                <Box h='200px' w='100%' backgroundPosition='center' backgroundSize='cover' backgroundRepeat='no-repeat' backgroundImage='https://i.imgur.com/thcUyTa.jpg'></Box>
+                </Center>
+                
+                
+
+                <Box p='6'>
+                    <Box display='flex' alignItems='baseline'>
+                        <Badge borderRadius='full' px='2' m='3px' colorScheme='teal'>
+                            REACT
+                        </Badge>
+                        <Badge borderRadius='full' px='2' m='3px' colorScheme='teal'>
+                            CHAKRA-UI
+                        </Badge>
+                      
+
+                    </Box>
+
+                    <Box
+                        mt='1'
+                        fontWeight='semibold'
+                        as='h3'
+                        lineHeight='tight'
+                        isTruncated
+                    >
+                       Carta Simple
+                    </Box>
+
+                    <Box>
+                    I worked on the frontend development of a website that allows restaurants to manage their menus, orders and deliveries.
+
+                    </Box>
+
+                    <Box display='flex' mt='2' alignItems='center'>
+
+                        <Button as='a'  href='#skills'  fontSize={{ base: "16px", sm: '22px', md: '24px', lg: '24px' }} padding={{ base: "8px", sm: '8px', md: '20px', lg: '20px' }} width={{ base: "35%", sm: "30%", md: "40%", lg: "40%" }} variant='cta'>Private</Button>
+                    </Box>
+
+                    <Box display='flex' mt='2' alignItems='center'>
+
+
+</Box>
+                </Box>
+
+            </Box>
+            </WrapItem>
            
 
             <WrapItem >
@@ -204,6 +268,12 @@ const Proyects = (): JSX.Element => {
 
                         <Button  as='a' target='_blank' href='https://github.com/tobiaspossetto/confiteria' fontSize={{ base: "16px", sm: '22px', md: '24px', lg: '24px' }} padding={{ base: "8px", sm: '8px', md: '20px', lg: '20px' }} width={{ base: "35%", sm: "30%", md: "40%", lg: "40%" }} variant='cta'>Repo</Button>
                     </Box>
+
+                    <Box display='flex' mt='2' alignItems='center'>
+
+<Button as='a' target='_blank' href='https://tobiaspossetto.github.io/confiteria/' fontSize={{ base: "16px", sm: '22px', md: '24px', lg: '24px' }} padding={{ base: "8px", sm: '8px', md: '20px', lg: '20px' }} width={{ base: "35%", sm: "30%", md: "40%", lg: "40%" }} variant='cta'>See</Button>
+</Box>
+                    
                 </Box>
 
 
@@ -258,6 +328,10 @@ const Proyects = (): JSX.Element => {
 
                         <Button  as='a' target='_blank' href='https://github.com/SerePrec/proyecto-shaolguin' fontSize={{ base: "16px", sm: '22px', md: '24px', lg: '24px' }} padding={{ base: "8px", sm: '8px', md: '20px', lg: '20px' }} width={{ base: "35%", sm: "30%", md: "40%", lg: "40%" }} variant='cta'>Repo</Button>
                     </Box>
+                    <Box display='flex' mt='2' alignItems='center'>
+
+<Button as='a' target='_blank' href='https://shaolguin.netlify.app/' fontSize={{ base: "16px", sm: '22px', md: '24px', lg: '24px' }} padding={{ base: "8px", sm: '8px', md: '20px', lg: '20px' }} width={{ base: "35%", sm: "30%", md: "40%", lg: "40%" }} variant='cta'>See</Button>
+</Box>
                 </Box>
 
 
@@ -361,13 +435,68 @@ const Proyects = (): JSX.Element => {
                     </Box>
 
                     <Box>
-                    In this project I developed the backend of an E-commerce using Express and mySql. I implemented a role and authentication system with JWT and included NPM module libraries to encrypt passwords and validate the fields coming from the frontend. The app allows its owner to create and manage products and also offers the possibility to manage customer orders.  
+                    In this API REST, my second Backend proyect, I developed the server of an E-commerce using Express and mySql. I implemented a role and authentication system with JWT and included NPM module libraries to encrypt passwords and validate the fields coming from the frontend. The app allows its owner to create and manage products and also offers the possibility to manage customer orders.  
 
                     </Box>
 
                     <Box display='flex' mt='2' alignItems='center'>
 
                         <Button as='a' target='_blank' href='https://github.com/tobiaspossetto/ecommerce-back' fontSize={{ base: "16px", sm: '22px', md: '24px', lg: '24px' }} padding={{ base: "8px", sm: '8px', md: '20px', lg: '20px' }} width={{ base: "35%", sm: "30%", md: "40%", lg: "40%" }} variant='cta'>Repo</Button>
+                    </Box>
+                </Box>
+
+
+
+
+
+
+
+
+            </Box>
+            </WrapItem>
+
+
+            <WrapItem >
+            <Box   maxWidth="330px"   bg='white'  borderRadius='lg' overflow='hidden'>
+
+                <Center>
+                <Box h='200px' w='100%' backgroundPosition='center' backgroundSize='cover' backgroundRepeat='no-repeat' backgroundImage='https://http2.mlstatic.com/storage/developers-site-cms-admin/CDV_MP/280231858061-210518-mla-mlu-mco-mlc-mco-transforma-tu-sitio-web-con-el-checkout-de-mercado-pago-header.jpg'></Box>
+                </Center>
+                
+                
+
+                <Box p='6'>
+                    <Box display='flex' alignItems='baseline'>
+                        <Badge borderRadius='full' px='2' m='3px' colorScheme='teal'>
+                            EXPRESS
+                        </Badge>
+                        <Badge borderRadius='full' px='2' m='3px' colorScheme='teal'>
+                            MERCADO PAGO
+                        </Badge>
+                        <Badge borderRadius='full' px='2' m='3px' colorScheme='teal'>
+                            TS
+                        </Badge>
+
+                    </Box>
+
+                    <Box
+                        mt='1'
+                        fontWeight='semibold'
+                        as='h3'
+                        lineHeight='tight'
+                        isTruncated
+                    >
+                        Mercado Pago integration
+                    </Box>
+
+                    <Box>
+                    I created a simple server that receives from the customer a shopping cart to pay and generates a payment order with the Mercado Pago API to return to the customer the link to make the payment.  
+
+                    </Box>
+
+                    <Box display='flex' mt='2' alignItems='center'>
+
+                        <Button as='a' target='_blank' href='https://github.com/tobiaspossetto/MERCADO-PAGO-API' fontSize={{ base: "16px", sm: '22px', md: '24px', lg: '24px' }} padding={{ base: "8px", sm: '8px', md: '20px', lg: '20px' }} width={{ base: "35%", sm: "30%", md: "40%", lg: "40%" }} variant='cta'>Repo</Button>
                     </Box>
                 </Box>
 
