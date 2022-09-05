@@ -435,13 +435,13 @@ const Proyects = (): JSX.Element => {
                     </Box>
 
                     <Box>
-                    In this API REST, my second Backend proyect, I developed the server of an E-commerce using Express and mySql. I implemented a role and authentication system with JWT and included NPM module libraries to encrypt passwords and validate the fields coming from the frontend. The app allows its owner to create and manage products and also offers the possibility to manage customer orders.  
+                    In this API REST, my second Backend proyect, I developed the server of an E-commerce using Express and MongoDB. I implemented a role and authentication system with JWT and included NPM module libraries to encrypt passwords and validate the fields coming from the frontend. The app allows its owner to create and manage products and also offers the possibility to manage customer orders.  
 
                     </Box>
 
                     <Box display='flex' mt='2' alignItems='center'>
 
-                        <Button as='a' target='_blank' href='https://github.com/tobiaspossetto/ecommerce-back' fontSize={{ base: "16px", sm: '22px', md: '24px', lg: '24px' }} padding={{ base: "8px", sm: '8px', md: '20px', lg: '20px' }} width={{ base: "35%", sm: "30%", md: "40%", lg: "40%" }} variant='cta'>Repo</Button>
+                        <Button as='a' target='_blank' href='https://github.com/tobiaspossetto/FinalBackendCoder' fontSize={{ base: "16px", sm: '22px', md: '24px', lg: '24px' }} padding={{ base: "8px", sm: '8px', md: '20px', lg: '20px' }} width={{ base: "35%", sm: "30%", md: "40%", lg: "40%" }} variant='cta'>Repo</Button>
                     </Box>
                 </Box>
 
